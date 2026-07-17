@@ -495,3 +495,28 @@ iframe{
 }
 
 }
+.offcanvas {
+    width: 300px !important;
+    max-width: 85vw;
+    background: #141912 !important;
+    color: white !important;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid #232c1f;
+}
+
+.offcanvas-body {
+    padding: 1.5rem;
+}
+
+.offcanvas .nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    padding: .8rem 0;
+}
+
+.offcanvas .btn {
+    margin-top: 1rem;
+    width: 100%;
+}
