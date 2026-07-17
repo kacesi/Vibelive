@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Galería de fotos de conciertos de K-pop, rock, jazz y festivales masivos de VibeLive." />
+  <title>Galería · VibeLive</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <div class="microfono-fondo" id="microfonoFondo"><i class="bi bi-mic-fill"></i></div>
+  <div class="contenido-principal">
+    <div class="text-center py-2 border-bottom border-secondary" style="background:#000;color:var(--vibe-accent);font-size:0.8rem;letter-spacing:1px;">
+      <i class="bi bi-music-note-beamed me-2"></i> PRÓXIMO FESTIVAL: ELECTRONIC VIBES · 15 DE AGOSTO
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-vibe sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2 font-brand fs-4 text-white" href="../index.html">
+          <i class="bi bi-music-note-beamed"></i> VibeLive
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuOffcanvas">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="menuOffcanvas">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title"><i class="bi bi-music-note-beamed me-2"></i>VibeLive</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto gap-lg-3">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+              <li class="nav-item"><a class="nav-link active" href="galeria.html">Galería</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+              <li class="nav-item ms-lg-2">
+                <a href="contacto.html" class="btn btn-accent btn-sm px-3 rounded-pill"><i class="bi bi-ticket-perforated me-1"></i> Boletos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center bg-transparent">
+              <li class="breadcrumb-item"><a href="../index.html" class="text-white-50">Inicio</a></li>
+              <li class="breadcrumb-item active text-white">Galería</li>
+            </ol>
+          </nav>
+          <h1>Galería de conciertos</h1>
+          <p class="lead text-white-50">Momentos inolvidables de nuestros eventos, desde K-pop hasta festivales masivos.</p>
+        </div>
+      </section>
+
+      <section class="container py-4">
+        <div class="text-center mb-4">
+          <button class="btn btn-accent rounded-pill mx-1 mb-2 filter-btn active" data-filter="all">Todos</button>
+          <button class="btn btn-outline-accent rounded-pill mx-1 mb-2 filter-btn" data-filter="kpop">K-pop</button>
+          <button class="btn btn-outline-accent rounded-pill mx-1 mb-2 filter-btn" data-filter="masivo">Conciertos Masivos</button>
+          <button class="btn btn-outline-accent rounded-pill mx-1 mb-2 filter-btn" data-filter="rock">Rock</button>
+          <button class="btn btn-outline-accent rounded-pill mx-1 mb-2 filter-btn" data-filter="electronica">Electrónica</button>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-6 col-md-4 col-lg-3 galeria-item animado" data-cat="kpop" data-caption="Concierto de K-pop con luces y coreografía">
+            <img src="../img/K-pop-concert.jpg" alt="K-pop concierto">
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 galeria-item animado delay-1" data-cat="kpop" data-caption="Fans con lightsticks en concierto de K-pop">
+            <img src="../img/kpop-fans.jpg" alt="K-pop fans" loading="lazy" />
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 galeria-item animado delay-2" data-cat="kpop" data-caption="Escenario de K-pop con pantallas gigantes">
+            <img src="../img/Kpop-stage.jpg" alt="K-pop stage" loading="lazy" />
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 galeria-item animado delay-3" data-cat="kpop" data-caption="Multitud en concierto de K-pop">
+            <img src="../img/Kpop-crowd.jpg" alt="K-pop crowd" loading="lazy" />
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 galeria-item animado" data-cat="masivo" data-caption="Festival masivo con miles de asistentes">
+            <img src="../img/concierto-masivo.jpg" alt="Festival masivo" loading="lazy" />
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 galeria-item animado delay-1" data-cat="masivo" data-caption="Escenario principal en concierto masivo">
+            <img src="../img/escenario-masivo.png" alt="Escenario masivo" loading="lazy" />
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 galeria-item animado delay-2" data-cat="masivo" data-caption="Público emocionado en concierto masivo">
+            <img src="../img/publico-masivo.jpg" alt="Público masivo" loading="lazy" />
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 galeria-item animado delay-3" data-cat="rock" data-caption="Concierto de rock con pirotecnia">
+            <img src="../img/rock-concierto.jpg" alt="Rock concert" loading="lazy" />
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 galeria-item animado" data-cat="electronica" data-caption="Festival de música electrónica con luces láser">
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=70" alt="Electrónica" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <div class="modal fade" id="lightboxModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content bg-dark border-0">
+            <div class="modal-body p-0 text-center position-relative">
+              <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" style="z-index:5;"></button>
+              <img id="lightboxImg" src="" alt="" class="img-fluid rounded" />
+              <p id="lightboxCaption" class="text-white py-3 mb-0"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <footer class="footer-vibe">
+      <div class="container text-center">
+        <p class="small text-white-50 mb-0">© 2026 VibeLive · Lima, Perú</p>
+      </div>
+    </footer>
+    <button id="scrollTopBtn"><i class="bi bi-arrow-up"></i></button>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
