@@ -459,10 +459,6 @@ a {
 .delay-3 { transition-delay: 0.3s; }
 .delay-4 { transition-delay: 0.4s; }
 
-/* ===========================
-   RESPONSIVE NOSOTROS
-=========================== */
-
 @media (max-width:768px){
 
 .page-header h1{
@@ -495,6 +491,4 @@ iframe{
     border-radius:15px;
 }
 
-}
-  }
 }
