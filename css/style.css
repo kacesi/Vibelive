@@ -459,47 +459,42 @@ a {
 .delay-3 { transition-delay: 0.3s; }
 .delay-4 { transition-delay: 0.4s; }
 
-@media (max-width: 576px) {
-  .hero-vibe {
-    min-height: 60vh;
-    padding: 20px 0;
-  }
-  .hero-vibe h1 {
-    font-size: 1.8rem !important;
-    word-break: break-word;
-  }
-  .hero-vibe .lead {
-    font-size: 0.95rem !important;
-    word-break: break-word;
-  }
-  .hero-vibe .badge-top {
-    font-size: 0.6rem;
-    padding: 4px 12px;
-    white-space: normal;
-  }
-  .hero-vibe .container {
-    padding: 0 15px;
-  }
-  .hero-vibe .btn-accent,
-  .hero-vibe .btn-outline-accent {
-    font-size: 0.8rem;
-    padding: 8px 16px;
-  }
-  .text-center.py-2 {
-    font-size: 0.65rem !important;
-    padding: 6px 10px !important;
-    white-space: normal;
-    word-break: break-word;
-  }
+/* ===========================
+   RESPONSIVE NOSOTROS
+=========================== */
+
+@media (max-width:768px){
+
+.page-header h1{
+    font-size:2rem;
 }
-@media (max-width: 400px) {
-  .hero-vibe h1 {
-    font-size: 1.4rem !important;
-  }
-  .hero-vibe .lead {
-    font-size: 0.8rem !important;
-  }
-  .hero-vibe .badge-top {
-    font-size: 0.55rem;
+
+.page-header .lead{
+    font-size:1rem;
+}
+
+.display-5,
+.display-6{
+    font-size:2rem;
+}
+
+.card-dark{
+    padding:20px;
+}
+
+.card-dark img.rounded-circle{
+    width:100px;
+    height:100px;
+}
+
+.badge{
+    font-size:.8rem;
+}
+
+iframe{
+    border-radius:15px;
+}
+
+}
   }
 }
