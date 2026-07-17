@@ -492,3 +492,14 @@ a {
     word-break: break-word;
   }
 }
+@media (max-width: 400px) {
+  .hero-vibe h1 {
+    font-size: 1.4rem !important;
+  }
+  .hero-vibe .lead {
+    font-size: 0.8rem !important;
+  }
+  .hero-vibe .badge-top {
+    font-size: 0.55rem;
+  }
+}
