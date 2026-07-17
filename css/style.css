@@ -461,126 +461,34 @@ a {
 
 @media (max-width: 576px) {
   .hero-vibe {
-    min-height: 55vh;
+    min-height: 60vh;
+    padding: 20px 0;
   }
   .hero-vibe h1 {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
+    word-break: break-word;
   }
   .hero-vibe .lead {
-    font-size: 0.95rem;
+    font-size: 0.95rem !important;
+    word-break: break-word;
   }
   .hero-vibe .badge-top {
-    font-size: 0.65rem;
-    padding: 5px 14px;
-  }
-  .btn-accent, .btn-outline-accent {
-    padding: 8px 20px;
-    font-size: 0.85rem;
-  }
-  
-  .card-evento img {
-    height: 150px;
-  }
-  .card-evento .card-body {
-    padding: 14px;
-  }
-  .card-evento h4 {
-    font-size: 1rem;
-  }
-  .ribbon {
     font-size: 0.6rem;
-    padding: 3px 12px;
-    top: -8px;
-    left: 12px;
+    padding: 4px 12px;
+    white-space: normal;
   }
-  
-  .counter-number {
-    font-size: 1.8rem;
+  .hero-vibe .container {
+    padding: 0 15px;
   }
-  .counter-label {
-    font-size: 0.65rem;
+  .hero-vibe .btn-accent,
+  .hero-vibe .btn-outline-accent {
+    font-size: 0.8rem;
+    padding: 8px 16px;
   }
-  
-  .bpm-container {
-    padding: 25px 15px;
-  }
-  .bpm-circle {
-    width: 60px;
-    height: 60px;
-    font-size: 24px;
-  }
-  
-  .galeria-item img {
-    height: 150px;
-  }
-  
-  .page-header h1 {
-    font-size: 1.8rem;
-  }
-  .page-header .lead {
-    font-size: 0.9rem;
-  }
-  
-  .card-dark {
-    padding: 16px;
-  }
-  
-  .form-control-vibe, .form-select-vibe {
-    padding: 10px 12px !important;
-    font-size: 0.9rem;
-  }
-  
-  .table td, .table th {
-    font-size: 0.7rem;
-    padding: 4px 6px;
-  }
-  
-  .footer-vibe {
-    padding: 30px 0 15px;
-    margin-top: 30px;
-  }
-  
-  #scrollTopBtn {
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
-    bottom: 20px;
-    right: 20px;
-  }
-  
-  .microfono-fondo {
-    font-size: 10rem;
-    opacity: 0.03;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-vibe {
-    min-height: 60vh;
-  }
-  .hero-vibe h1 {
-    font-size: 2.4rem;
-  }
-  .microfono-fondo {
-    font-size: 12rem;
-    opacity: 0.04;
-  }
-  .carousel-item img {
-    height: 250px !important;
-  }
-}
-
-@media (max-width: 400px) {
-  .hero-vibe h1 {
-    font-size: 1.5rem;
-  }
-  .hero-vibe .lead {
-    font-size: 0.85rem;
-  }
-  .card-evento img {
-    height: 130px;
-  }
-  .counter-number {
-    font-size: 1.5rem;
+  .text-center.py-2 {
+    font-size: 0.65rem !important;
+    padding: 6px 10px !important;
+    white-space: normal;
+    word-break: break-word;
   }
 }
