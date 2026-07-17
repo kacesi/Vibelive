@@ -4,6 +4,9 @@
   --vibe-bg: #0b0d0a;
   --vibe-card: #141912;
   --vibe-border: #232c1f;
+  --font-body: 'Inter', sans-serif;
+  --font-display: 'Syne', sans-serif;
+  --vibe-glow: rgba(0,240,255,.35);
 }
 
 * {
