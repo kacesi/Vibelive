@@ -460,8 +460,125 @@ a {
 .delay-4 { transition-delay: 0.4s; }
 
 @media (max-width: 768px) {
-  .hero-vibe { min-height: 70vh; }
-  .counter-number { font-size: 2.2rem; }
-  .microfono-fondo { font-size: 15rem; opacity: 0.04; }
-  .page-header { padding: 60px 0 40px; }
+  .hero-vibe {
+    min-height: 60vh;
+  }
+  .hero-vibe h1 {
+    font-size: 2.2rem;
+  }
+  .hero-vibe .lead {
+    font-size: 1rem;
+  }
+  .microfono-fondo {
+    font-size: 12rem;
+    opacity: 0.04;
+  }
+  .carousel-item img {
+    height: 250px !important;
+  }
+  .card-evento img {
+    height: 160px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-vibe {
+    min-height: 55vh;
+  }
+  .hero-vibe h1 {
+    font-size: 1.8rem;
+  }
+  .hero-vibe .lead {
+    font-size: 0.95rem;
+  }
+  .card-evento img {
+    height: 140px;
+  }
+  .card-evento .card-body {
+    padding: 14px;
+  }
+  .card-evento h4 {
+    font-size: 1rem;
+  }
+  .ribbon {
+    font-size: 0.6rem;
+    padding: 3px 12px;
+    top: -8px;
+    left: 12px;
+  }
+  .counter-number {
+    font-size: 1.8rem;
+  }
+  .counter-label {
+    font-size: 0.65rem;
+  }
+  .bpm-container {
+    padding: 25px 15px;
+  }
+  .bpm-circle {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+  .bpm-circle::after {
+    inset: -4px;
+  }
+  .bpm-container h3 {
+    font-size: 1.2rem;
+  }
+  .galeria-item img {
+    height: 150px;
+  }
+  .page-header h1 {
+    font-size: 1.8rem;
+  }
+  .page-header .lead {
+    font-size: 0.9rem;
+  }
+  .card-dark {
+    padding: 16px;
+  }
+  .card-dark h4 {
+    font-size: 1.1rem;
+  }
+  .form-control-vibe, .form-select-vibe {
+    padding: 10px 12px !important;
+    font-size: 0.9rem;
+  }
+  .table td, .table th {
+    font-size: 0.7rem;
+    padding: 4px 6px;
+  }
+  .footer-vibe {
+    padding: 30px 0 15px;
+    margin-top: 30px;
+  }
+  .footer-vibe h5 {
+    font-size: 1rem;
+  }
+  .footer-vibe p {
+    font-size: 0.75rem;
+  }
+  #scrollTopBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-vibe h1 {
+    font-size: 1.5rem;
+  }
+  .hero-vibe .lead {
+    font-size: 0.85rem;
+  }
+  .card-evento img {
+    height: 130px;
+  }
+  .counter-number {
+    font-size: 1.5rem;
+  }
 }
